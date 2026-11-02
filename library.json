@@ -1,0 +1,206 @@
+[
+  {
+    "name": "Пазлы",
+    "file": "/library/puzzle-color.svg",
+    "tags": [
+      "команда",
+      "сотрудничество",
+      "решение",
+      "puzzle"
+    ]
+  },
+  {
+    "name": "Пазлы · моно",
+    "file": "/library/puzzle-mono.svg",
+    "tags": [
+      "команда",
+      "сотрудничество",
+      "решение",
+      "puzzle"
+    ]
+  },
+  {
+    "name": "Книга",
+    "file": "/library/book-color.svg",
+    "tags": [
+      "учёба",
+      "знания",
+      "образование",
+      "чтение",
+      "learn",
+      "book"
+    ]
+  },
+  {
+    "name": "Книга · моно",
+    "file": "/library/book-mono.svg",
+    "tags": [
+      "учёба",
+      "знания",
+      "образование",
+      "чтение",
+      "learn",
+      "book"
+    ]
+  },
+  {
+    "name": "Телефон",
+    "file": "/library/phone-color.svg",
+    "tags": [
+      "общение",
+      "связь",
+      "технологии",
+      "phone"
+    ]
+  },
+  {
+    "name": "Телефон · моно",
+    "file": "/library/phone-mono.svg",
+    "tags": [
+      "общение",
+      "связь",
+      "технологии",
+      "phone"
+    ]
+  },
+  {
+    "name": "Наушники",
+    "file": "/library/headphones-color.svg",
+    "tags": [
+      "музыка",
+      "фокус",
+      "отдых",
+      "headphones"
+    ]
+  },
+  {
+    "name": "Наушники · моно",
+    "file": "/library/headphones-mono.svg",
+    "tags": [
+      "музыка",
+      "фокус",
+      "отдых",
+      "headphones"
+    ]
+  },
+  {
+    "name": "Лампа",
+    "file": "/library/lamp-color.svg",
+    "tags": [
+      "идея",
+      "вдохновение",
+      "работа",
+      "lamp"
+    ]
+  },
+  {
+    "name": "Лампа · моно",
+    "file": "/library/lamp-mono.svg",
+    "tags": [
+      "идея",
+      "вдохновение",
+      "работа",
+      "lamp"
+    ]
+  },
+  {
+    "name": "Кошелек",
+    "file": "/library/wallet-color.svg",
+    "tags": [
+      "финансы",
+      "бюджет",
+      "деньги",
+      "wallet"
+    ]
+  },
+  {
+    "name": "Кошелек · моно",
+    "file": "/library/wallet-mono.svg",
+    "tags": [
+      "финансы",
+      "бюджет",
+      "деньги",
+      "wallet"
+    ]
+  },
+  {
+    "name": "Ручка",
+    "file": "/library/pen-color.svg",
+    "tags": [
+      "письмо",
+      "творчество",
+      "работа",
+      "pen"
+    ]
+  },
+  {
+    "name": "Ручка · моно",
+    "file": "/library/pen-mono.svg",
+    "tags": [
+      "письмо",
+      "творчество",
+      "работа",
+      "pen"
+    ]
+  },
+  {
+    "name": "Папка",
+    "file": "/library/folder-color.svg",
+    "tags": [
+      "документы",
+      "порядок",
+      "работа",
+      "folder"
+    ]
+  },
+  {
+    "name": "Папка · моно",
+    "file": "/library/folder-mono.svg",
+    "tags": [
+      "документы",
+      "порядок",
+      "работа",
+      "folder"
+    ]
+  },
+  {
+    "name": "Монета",
+    "file": "/library/coin-color.svg",
+    "tags": [
+      "деньги",
+      "финансы",
+      "накопления",
+      "money"
+    ]
+  },
+  {
+    "name": "Монета · моно",
+    "file": "/library/coin-mono.svg",
+    "tags": [
+      "деньги",
+      "финансы",
+      "накопления",
+      "money"
+    ]
+  },
+  {
+    "name": "Растение",
+    "file": "/library/plant-color.svg",
+    "tags": [
+      "рост",
+      "развитие",
+      "природа",
+      "plant"
+    ]
+  },
+  {
+    "name": "Растение · моно",
+    "file": "/library/plant-mono.svg",
+    "tags": [
+      "рост",
+      "развитие",
+      "природа",
+      "plant"
+    ]
+  }
+]

@@ -1,0 +1,5 @@
+import type { Project } from './model';
+import { validateProject } from './svg';
+function openDb(): Promise<IDBDatabase> { return new Promise((resolve,reject)=>{const q=indexedDB.open('snapbuild-composer',1);q.onupgradeneeded=()=>q.result.createObjectStore('projects');q.onsuccess=()=>resolve(q.result);q.onerror=()=>reject(q.error);}); }
+export async function loadProject():Promise<Project|null> { const db=await openDb();try{return await new Promise((resolve,reject)=>{const q=db.transaction('projects').objectStore('projects').get('current');q.onsuccess=()=>{try{resolve(q.result?validateProject(q.result):null);}catch(e){reject(e);}};q.onerror=()=>reject(q.error);});}finally{db.close();} }
+export async function saveProject(p:Project):Promise<void> {const valid=validateProject(p);const db=await openDb();try{await new Promise<void>((resolve,reject)=>{const tx=db.transaction('projects','readwrite');tx.objectStore('projects').put(valid,'current');tx.oncomplete=()=>resolve();tx.onerror=()=>reject(tx.error);tx.onabort=()=>reject(tx.error);});}finally{db.close();}}
